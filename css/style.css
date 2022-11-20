@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sait {
+    height: auto;
+}
+
+.screen-1,
+.screen-2,
+.screen-3,
+.screen-5,
+.screen-7,
+.auto {
+    width: 1340px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.screen-1 {
+    margin-bottom: 124px;
+}
+
+.header-text,
+.product-description,
+.description {
+    text-align: center;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+}
+
+.product-description {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-top: 23px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 28px 24px;
+    padding-top: 79px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-top: 44px;
+}
+
+.logo-name-company {
+    background: #9AA8B1;
+    width: 100%;
+    height: 404px;
+    margin-top: 121px;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.name-company {
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.description-company {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+.screen-3-img {
+    padding: 23px 0 0 0;
+    width: 1052px;
+    margin: 0 auto;
+}
+
+.screen-3 {
+    margin-top: 116px;
+    margin-bottom: 38px;
+}
+
+.bgi {
+    background-image: url(../images/Rectangle\ \(24\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 504px;
+    width: 1903px;
+    margin: 0 auto;
+}
+
+.screen-4 {
+    color: #fff;
+    text-align: center;
+    padding: 179px 0;
+}
+
+.screen-4-text {
+    font-weight: 400;
+    font-size: 66px;
+    color: #FFFFFF;
+    line-height: 70px;
+    margin-bottom: 14px;
+}
+
+.screen-4-description {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    line-height: 16px;
+}
+
+.more {
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 53px;
+}
+
+.col {
+    width: 7px;
+    height: 7px;
+    background: black;
+}
+
+.box {
+    width: 1340px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding-top: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.line {
+    margin-top: 23px;
+}
+
+.line p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+}
+
+.screen-5 {
+    margin-bottom: 95px;
+}
+
+.screen-2 {
+    margin-bottom: 39px;
+}
+
+.screen-6 {
+    background: #F9F9F9;
+    height: 480px;
+    width: 100%;
+}
+
+.auto {
+    position: relative;
+}
+
+.do-up {
+    height: 82px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.content {
+    display: flex;
+    padding: 77px 0 28px 0;
+}
+
+.content-left {
+    width: 180px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.nav a,
+.right-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.right-description {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-top: 23px;
+    display: block;
+}
+
+.border-bottom {
+    width: 250px;
+    margin-top: 98px;
+}
+
+.bottom {
+    margin-top: 80px;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: end;
+    gap: 38px;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+}
+
+.nav-bottom a {
+    color: #707A7F;
+}
+
+.black-text a{
+    font-weight: 500;
+    font-size: 11px;
+    color: #000;
+}
+
+.left {
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 81px;
+}
+
+.flex-text {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.text-header {
+    margin-bottom: 23px;
+}
+
+.screen-7 {
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
